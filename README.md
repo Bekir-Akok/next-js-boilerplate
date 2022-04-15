@@ -4,8 +4,8 @@ This is a Next.js + MUI v5 + i18n + Tailwind + Prettier + Eslint starter which h
 
 ## How to use
 
-git clone https://github.com/Bekir-Akok/next-js-boilerplate
+### `https://github.com/Bekir-Akok/next-js-boilerplate`
 Just use below commands to start the project on your local server.
 
-npm install
-npm start
+### `npm or yarn install`
+### `npm or yarn start`
