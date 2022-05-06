@@ -10,7 +10,7 @@ export const getStaticProps = async ({ locale }) => ({
   }
 });
 
-export default function Home() {
+const Home = () => {
   const router = useRouter();
   const { t } = useTranslation('common');
 
@@ -27,4 +27,9 @@ export default function Home() {
       ))}
     </>
   );
-}
+};
+
+Home.layout = 'L1';
+Home.isAuthProtect = false;
+
+export default Home;
